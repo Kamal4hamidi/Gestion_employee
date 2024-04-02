@@ -1,0 +1,11 @@
+2001::db8/cafeabcd/64
+2001::db8:abcd:64
+config ipv6
+je lance waresharp et ecoute linterface filtre icmpv6 ipv6 ndp
+
+
+
+
+
+
+
