@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class DepartementController extends Controller
 {
-    public function index()
+    public function index() 
     {
         $departements = Departement::paginate(5);
         return view('departements.index', compact('departements'));
